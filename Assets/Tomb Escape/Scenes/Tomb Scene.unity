@@ -6365,9 +6365,9 @@ MonoBehaviour:
   rightController: {fileID: 452846198}
   leftController: {fileID: 557437257}
   hourGlass: {fileID: 1758116040}
-  _threshold: 100
-  translationWeight: 1000
-  rotationWeight: 100
+  _threshold: 120
+  translationWeight: 500
+  rotationWeight: 500
 --- !u!4 &1758116043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5111544916611549536, guid: c844625022dd4d1479f604eceb65b109, type: 3}

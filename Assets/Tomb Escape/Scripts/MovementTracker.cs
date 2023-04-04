@@ -47,7 +47,7 @@ public class MovementTracker : MonoBehaviour
     private float AmountMoved()
     {
         float amount = 0;
-        //amount += TranslationDifference();
+        amount += TranslationDifference();
         amount += RotationDifference();
         print("æ" + amount);
         return amount;
