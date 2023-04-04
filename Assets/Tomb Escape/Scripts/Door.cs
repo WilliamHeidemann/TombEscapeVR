@@ -14,14 +14,12 @@ public class Door : MonoBehaviour, IInteractable
 
     private void OnMouseDown()
     {
-        var next = NextRoom();
-        StartFade?.Invoke(next);
+        Interact();
     }
 
     public void Interact()
     {
-        print("Opening door!");
-        //var next = NextRoom();
-        //StartFade?.Invoke(next);
+        var next = NextRoom();
+        StartFade?.Invoke(next);
     }
 }

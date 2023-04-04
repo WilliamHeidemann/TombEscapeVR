@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lever : MonoBehaviour
+public class Lever : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject anchor;
     [SerializeField] private Animator animator;
@@ -12,7 +12,14 @@ public class Lever : MonoBehaviour
     private bool _hasBeenPulled;
     private static readonly int Lever1 = Animator.StringToHash("Lever");
 
+
+
     private void OnMouseDown()
+    {
+        Interact();
+    }
+
+    public void Interact()
     {
         if (_hasBeenPulled) return;
         _hasBeenPulled = true;

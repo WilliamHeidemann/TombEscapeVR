@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PendulumReactor : MonoBehaviour
+public class PendulumReactor : MonoBehaviour, IInteractable
 {
     [SerializeField] private Transform pendulum;
     [SerializeField] private Material lit;
@@ -15,6 +15,11 @@ public class PendulumReactor : MonoBehaviour
     private int _amountActivated;
     
     private void OnMouseDown()
+    {
+        Interact();
+    }
+
+    public void Interact()
     {
         var rotation = pendulum.localRotation.eulerAngles.z;
         if (rotation is < 10f or > 350f)

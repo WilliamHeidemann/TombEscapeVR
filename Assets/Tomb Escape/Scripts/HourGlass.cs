@@ -34,7 +34,7 @@ public class HourGlass : MonoBehaviour
         if (_solvedCountDown <= 0)
         {
             solvedIndicator.LightUp();
-            Destroy(this);
+            //Destroy(this);
         }
     }
 

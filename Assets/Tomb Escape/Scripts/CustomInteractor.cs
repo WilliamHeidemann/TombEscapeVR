@@ -7,14 +7,10 @@ public class CustomInteractor : MonoBehaviour
 {
     [SerializeField] OVRInput.Button interactButton;
 
-
     void Update()
     {
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
         RaycastHit hit;
-        
-        
-
         if (Physics.Raycast(transform.position, fwd, out hit))
         {
             if (OVRInput.GetDown(interactButton))
