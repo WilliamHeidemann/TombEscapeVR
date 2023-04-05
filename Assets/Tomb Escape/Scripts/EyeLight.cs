@@ -7,14 +7,14 @@ public class EyeLight : MonoBehaviour, IPointToInteractable
 {
     [SerializeField] private GameObject eyeLight;
     [SerializeField] private BothEyesChecker checker;
-
-    public void Interact()
+    
+    public void OnPointedAt()
     {
         eyeLight.SetActive(true);
         checker.EyeLit();
     }
 
-    public void DeActivate()
+    public void OnStoppedPointingAt()
     {
         eyeLight.SetActive(false);
         checker.EyeUnLit();

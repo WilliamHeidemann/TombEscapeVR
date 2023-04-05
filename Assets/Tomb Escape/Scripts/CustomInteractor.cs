@@ -6,10 +6,10 @@ using UnityEngine;
 public class CustomInteractor : MonoBehaviour
 {
     [SerializeField] OVRInput.Button interactButton;
-
+    private IPointToInteractable _lastPointedTo;
     void Update()
     {
-        Vector3 fwd = transform.TransformDirection(Vector3.forward);
+        var fwd = transform.TransformDirection(Vector3.forward);
         RaycastHit hit;
         if (Physics.Raycast(transform.position, fwd, out hit))
         {
@@ -23,8 +23,19 @@ public class CustomInteractor : MonoBehaviour
 
             if (hit.collider.CompareTag("PointToInteractable"))
             {
-                hit.collider.GetComponent<IPointToInteractable>().Interact();
+                var pointedTo = hit.collider.GetComponent<IPointToInteractable>();
+                if (pointedTo != _lastPointedTo)
+                {
+                    pointedTo.OnPointedAt();
+                    _lastPointedTo = pointedTo;
+                }
+            } 
+            else
+            {
+                _lastPointedTo?.OnStoppedPointingAt();
+                _lastPointedTo = null;
             }
+            
         }
     }
 

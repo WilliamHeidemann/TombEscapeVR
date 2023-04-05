@@ -9,5 +9,6 @@ public interface IClickInteractable
 
 public interface IPointToInteractable
 {
-    public void Interact();
+    public void OnPointedAt();
+    public void OnStoppedPointingAt();
 }

@@ -17,7 +17,7 @@ public class BothEyesChecker : MonoBehaviour
     {
         if (_puzzleSolved) return;
         _eyesLitUp += 1;
-        if (_eyesLitUp == 2)
+        if (_eyesLitUp == 3)
         {
             _solvedIndicator.LightUp();
         }
