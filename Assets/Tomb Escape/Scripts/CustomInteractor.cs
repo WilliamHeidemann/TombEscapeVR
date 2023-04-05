@@ -13,16 +13,24 @@ public class CustomInteractor : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, fwd, out hit))
         {
-            if (OVRInput.GetDown(interactButton))
+            if (hit.collider.CompareTag("ClickInteractable"))
             {
-                FindInteractable(hit)?.Interact();
+                if (OVRInput.GetDown(interactButton))
+                {
+                    hit.collider.GetComponent<IClickInteractable>().Interact();
+                }
+            }
+
+            if (hit.collider.CompareTag("PointToInteractable"))
+            {
+                hit.collider.GetComponent<IPointToInteractable>().Interact();
             }
         }
     }
 
-    private IInteractable FindInteractable(RaycastHit hit)
+    private IClickInteractable FindInteractable(RaycastHit hit)
     {
-        if(hit.transform.TryGetComponent<IInteractable>(out var interactable))
+        if (hit.collider.TryGetComponent<IClickInteractable>(out var interactable))
         {
             return interactable;
         }

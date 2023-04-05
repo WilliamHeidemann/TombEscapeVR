@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door : MonoBehaviour, IInteractable
+public class Door : MonoBehaviour, IClickInteractable
 {
     public delegate void MoveRoomDelegate(Transform room);
     public static event MoveRoomDelegate StartFade;

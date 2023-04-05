@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - SamplesInfoPanel
+  - RoomLight
+  - ClickInteractable
+  - PointToInteractable
   layers:
   - Default
   - TransparentFX

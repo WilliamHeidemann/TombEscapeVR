@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PendulumReactor : MonoBehaviour, IInteractable
+public class PendulumReactor : MonoBehaviour, IClickInteractable
 {
     [SerializeField] private Transform pendulum;
     [SerializeField] private Material lit;

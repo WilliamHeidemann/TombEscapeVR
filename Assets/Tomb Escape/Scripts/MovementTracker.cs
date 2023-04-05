@@ -49,7 +49,7 @@ public class MovementTracker : MonoBehaviour
         float amount = 0;
         amount += TranslationDifference();
         amount += RotationDifference();
-        print("æ" + amount);
+        print("Ã¦" + amount);
         return amount;
     }
 

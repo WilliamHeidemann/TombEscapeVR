@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lever : MonoBehaviour, IInteractable
+public class Lever : MonoBehaviour, IClickInteractable
 {
     [SerializeField] private GameObject anchor;
     [SerializeField] private Animator animator;
