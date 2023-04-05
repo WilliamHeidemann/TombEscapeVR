@@ -165,7 +165,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerThumbstick.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCrossingController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
-     <Compile Include="Assets\RoomTeleporter.cs" />
+     <Compile Include="Assets\Tomb Escape\Scripts\RoomTeleporter.cs" />
      <Compile Include="Assets\Tomb Escape\Scripts\SolvedIndicator.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshMask.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\FurnitureSpawner.cs" />
@@ -201,6 +201,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SelectivePassthroughExperience.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
+     <Compile Include="Assets\Tomb Escape\Scripts\PlayerBodyTracker.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\IGB388\Common\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Hidden.shader" />
@@ -218,6 +219,7 @@
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\PassthroughLine.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\BackgroundColor.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\FatFingers.shader" />
+     <None Include="Assets\Tomb Escape\WizardPolyArt\Shader\PolyArtMaskTint.shader" />
      <None Include="Assets\IGB388\Common\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\IGB388\Common\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\IGB388\Common\QuickOutline\Resources\Shaders\OutlineMask.shader" />
@@ -262,6 +264,7 @@
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
      <None Include="Assets\IGB388\Common\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\StylizedOcclusions.shader" />
+     <None Include="Assets\Tomb Escape\WizardPolyArt\SRP\HowToTestSRPs.txt" />
      <None Include="Assets\IGB388\Common\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\GlassMask.shader" />

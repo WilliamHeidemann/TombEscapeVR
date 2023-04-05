@@ -26,6 +26,7 @@ public class Fader : MonoBehaviour
     private IEnumerator Fade(Transform room)
     {
         var faded = 0f;
+        OVRScreenFade.instance.FadeOut();
         while (faded < 1f)
         {
             faded += Time.deltaTime;
@@ -37,6 +38,7 @@ public class Fader : MonoBehaviour
             yield return null;
         }
         MoveRoom?.Invoke(room);
+        OVRScreenFade.instance.FadeIn();
         while (faded > 0f)
         {
             faded -= Time.deltaTime;

@@ -22,7 +22,7 @@ public class PendulumReactor : MonoBehaviour, IClickInteractable
     public void Interact()
     {
         var rotation = pendulum.localRotation.eulerAngles.z;
-        if (rotation is < 10f or > 350f)
+        if (rotation is < 12f or > 348f)
         {
             Activate();
         }
