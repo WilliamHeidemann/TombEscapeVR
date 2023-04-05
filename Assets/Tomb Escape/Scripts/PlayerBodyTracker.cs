@@ -56,9 +56,11 @@ public class PlayerBodyTracker : MonoBehaviour
 
     private bool IsPoseOne()
     {
-        var distance =  rightHand.position - leftHand.position;
-        print(distance);
-        return false;
+        var distanceVector =  rightHand.position - leftHand.position;
+        print(distanceVector);
+        if (distanceVector.x < 5) return false;
+        if (distanceVector.y < 5) return false;
+        return true;
     }
     private bool IsPoseTwo()
     {
@@ -69,6 +71,4 @@ public class PlayerBodyTracker : MonoBehaviour
     {
         return false;
     }
-
-    
 }
