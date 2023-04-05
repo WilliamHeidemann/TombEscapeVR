@@ -29,8 +29,8 @@ public class PlayerBodyTracker : MonoBehaviour
     {
         if (!_isTracking) return;
         _distanceBetweenHands = Vector3.Distance(rightHand.position, leftHand.position);
-        //if (_distanceBetweenHands == 0) return; // One controller not detected
-        //if (_distanceBetweenHands < 9) return; // Hands too close
+        if (_distanceBetweenHands == 0) return; // One controller not detected
+        if (_distanceBetweenHands < 8) return; // Hands too close
         if (IsPoseOne())
         {
             _firstPositionDone = true;
@@ -57,9 +57,8 @@ public class PlayerBodyTracker : MonoBehaviour
     private bool IsPoseOne()
     {
         var distanceVector =  rightHand.position - leftHand.position;
-        print(distanceVector);
-        if (distanceVector.x < 5) return false;
-        if (distanceVector.y < 5) return false;
+        if (distanceVector.x < 4) return false;
+        if (distanceVector.y < 4) return false;
         return true;
     }
     private bool IsPoseTwo()
@@ -69,6 +68,9 @@ public class PlayerBodyTracker : MonoBehaviour
     }
     private bool IsPoseThree()
     {
-        return false;
+        var distanceVector =  rightHand.position - leftHand.position;
+        if (distanceVector.x > -4) return false;
+        if (distanceVector.z < 4) return false;
+        return true;
     }
 }
