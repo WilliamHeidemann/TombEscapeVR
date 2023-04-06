@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{fc9ff3ff-d2d3-ca06-2131-cb68af4af869}</ProjectGuid>
+    <ProjectGuid>{c80aea99-9f7a-4c35-918d-8ec7892b8cf6}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -306,34 +306,34 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.12f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.12f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -942,33 +942,33 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.12f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TestRunner">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
-     <HintPath>C:\Users\n11511591\Desktop\TombEscapeVR\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+     <HintPath>C:\Users\n11511591\Desktop\tombescapevr\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{c1ce75fa-ca92-2440-1666-1e49bae639ab}</Project>
+      <Project>{80272a27-7b38-88a9-dd7a-bd60a75dda67}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Editor.csproj">
-      <Project>{4a200de4-01cc-4267-d2e1-26a5801b7661}</Project>
+      <Project>{5c3258a5-e805-856d-0efa-416c7c8a169f}</Project>
       <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.csproj">
-      <Project>{74104cfc-8d91-ebe9-2ae2-cea0c711bbb2}</Project>
+      <Project>{dede3f63-7272-cb91-631c-7d8e38f2b190}</Project>
       <Name>Oculus.Interaction.OVR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{d182758b-6443-40cf-cbc8-8dbaa1a61b61}</Project>
+      <Project>{fbaea36f-0129-132f-c954-b6723202bede}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
