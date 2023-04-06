@@ -13,8 +13,6 @@ public class PlayerBodyTracker : MonoBehaviour
     [SerializeField] private MeshRenderer solvedPositionOneIndicator;
     [SerializeField] private MeshRenderer solvedPositionTwoIndicator;
     [SerializeField] private MeshRenderer solvedPositionThreeIndicator;
-
-    [SerializeField] private Transform player;
     
     private bool _isTracking;
     private bool _firstPositionDone;
@@ -34,14 +32,9 @@ public class PlayerBodyTracker : MonoBehaviour
         _distanceBetweenHands = Vector3.Distance(rightHand.position, leftHand.position);
         if (_distanceBetweenHands == 0) return; // One controller not detected
         _distanceVector = rightHand.position - leftHand.position;
-        // var rotation = Quaternion.FromToRotation(Vector3.left, _distanceVector.normalized);
-        // var rotatedDistanceVector = rotation * _distanceVector ;
-        // var handsVector = rotatedDistanceVector.normalized * _distanceBetweenHands;
-        var projection = Vector3.Project(_distanceVector, player.forward);
-        var perpendicular = _distanceVector - projection;
-        var aligned = Quaternion.FromToRotation(Vector3.forward, player.forward) * projection;
-        var handsVector = aligned + perpendicular;
-        print("æ " + handsVector);
+        // Flip x and z because the world is in another direction
+        _distanceVector = new Vector3(_distanceVector.z, _distanceVector.y, -_distanceVector.x);
+        print("æ " + _distanceVector);
         if (IsPoseOne())
         {
             _firstPositionDone = true;
@@ -64,7 +57,7 @@ public class PlayerBodyTracker : MonoBehaviour
             Destroy(this);
         }
     }
-
+    
     private bool IsPoseOne()
     {
         if (_distanceVector.x < 4) return false;

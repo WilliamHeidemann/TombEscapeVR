@@ -6,7 +6,6 @@ using UnityEngine;
 public class BothEyesChecker : MonoBehaviour
 {
     private SolvedIndicator _solvedIndicator;
-    private bool _puzzleSolved;
     private int _eyesLitUp;
     void Start()
     {
@@ -15,7 +14,6 @@ public class BothEyesChecker : MonoBehaviour
 
     public void EyeLit()
     {
-        if (_puzzleSolved) return;
         _eyesLitUp += 1;
         if (_eyesLitUp == 3)
         {
